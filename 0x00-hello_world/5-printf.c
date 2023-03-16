@@ -1,12 +1,10 @@
-#include <stdio.h>
+#include <stdio.j>
 /**
- * Entry point - This program will display a line using the printf fucntion.
- *
+ * main - This program will print using the printf function.
  * Return: 0
- *
- */	
-
-int main (void) {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+ */
+int main(void)
+{
+printf("with proper grammar, but the outcome is a piece of art,\n")
+return (0);
 }
