@@ -1,12 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * Entry point - Program that will display a line using the PUTS function
- *
+ * main - This program will print a line using the puts function
  * Return: 0
- * 
- **/
-
-int main(void) { 
-	puts("Programming is like building a multilingual puzzle\n");	
-	Return (0);
+ */
+int main(void)
+{
+puts("Programming is like building a multingual puzzle\n");
+return (0);
 }
