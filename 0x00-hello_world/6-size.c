@@ -1,26 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * Entry Point - This program will display the various types of sizes on the computer that it is compiled on.
- *
+ * main - This program is supposed to print the various computer sizes and types
  * Return: 0
- *
  */
-int main (void)
+int main(void)
 {
-	char size1;
-	int size2;
-	long int size3;
-	long long int size4;
-	float size5;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-printf("Size of a char: %lu byte(s)\n", (unsigned long)
-sizeof (size1);
-printf("Size of a int: %lu byte(s)\n", (unsigned long)
-sizeof (size2);
-printf("Size of a long int: %lu byte(s)\n", (unsigned long)
-sizeof (size3);
-printf("size of a long long int: %lu byte(s)\n", (unsigned long)
-sizeof (size4);
-printf("Size of a float: %lu byte(s) \n", (unsigned long)
-sizeof (size5);
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 return (0);
+}
