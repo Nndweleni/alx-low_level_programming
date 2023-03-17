@@ -1,10 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there 
- * main - This program randomly generate a number each time it is run
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+/**
+ * main - PRogram will generate random numbers each time it is run
+ *
+ * Return: 0
  */
+
 int main(void)
 {
 	int n;
@@ -24,6 +29,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
