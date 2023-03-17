@@ -2,7 +2,9 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there 
+ * main - This program randomly generate a number each time it is run
+ */
 int main(void)
 {
 	int n;
