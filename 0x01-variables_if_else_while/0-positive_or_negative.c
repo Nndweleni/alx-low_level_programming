@@ -12,17 +12,17 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		n = "is positive"
+		n = "is positive";
 	}
 	else
 	{
 		if (n == 0) 
 		{
-			n = "is zero"
+			n = "is zero";
 		}
 		else
 		{
-			n = "is negative"
+			n = "is negative";
 		}
 	return (0);
 }
