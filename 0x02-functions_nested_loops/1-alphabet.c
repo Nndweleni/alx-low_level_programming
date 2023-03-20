@@ -2,8 +2,6 @@
 /**
  * print_alphabet - Printing alphabets
  *
- * main - Printing the code above
- *
  * Return: 0
  */
 void print_alphabet(void)
@@ -14,8 +12,13 @@ void print_alphabet(void)
 		_putchar(alphabets);
 		_putchar("\n");
 }
+/**
+ * main - Printing the code above
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	print_alphabet();
+	prinst_alphabet();
 	return (0);
 }
